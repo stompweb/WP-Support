@@ -17,7 +17,7 @@ Using a third party support system (or e-mail, or none at all!) might not be the
 * Adds a native support forum to WP Admin
 * Dashboard statistics to show progress
 
-= Roadmap =
+== Roadmap ==
 
 * Ability to edit comments
 * Notifications
