@@ -1,8 +1,8 @@
-=== WPThumb ===
+=== WP Support ===
 Contributors: stompweb
 Tags: support
 Requires at least: 3.5
-Tested up to: .5
+Tested up to: 3.5
 Stable tag: 0.1
 
 A native support forum for WordPress.
@@ -22,6 +22,14 @@ Using a third party support system (or e-mail, or none at all!) might not be the
 * Ability to edit comments
 * Notifications
 * Select which users can view support
+* Internationalization
+
+== Frequently Asked Questions ==
+
+= Can I request feature 'X'? =
+
+Sure. Head over to https://github.com/stompweb/WP-Support and add your requests in the 'Issues' section
+
 
 == Changelog ==
 
