@@ -1,0 +1,23 @@
+.status 		{ width: 75px; padding: 5px 10px; border-radius: 5px; text-align: center; }
+.unresolved 	{ background-color: #FFEBE8; border: 1px solid #C00;}
+.in-progress 	{ background-color: lightYellow; border: 1px solid #E6DB55;  }
+.resolved 		{ background-color: lightgreen; border: 1px solid darkgreen; }
+
+.ticket-info 			{ border: 1px solid #EEE; border-radius: 5px; margin-top: 10px; padding: 10px;  margin-bottom: 40px; background-color: #EEE;}
+.ticket-info h2 		{ display: block; margin: 0 0 20px 0;  }
+.ticket-info ul, ol 	{ margin: 10px 0 10px 30px; padding: 10px 0;}
+.ticket-info ul li 		{ list-style-type: disc; margin-bottom: 4px; }
+.ticket-info ul ol 		{ list-style-type: decimal; margin-bottom: 4px; }
+.ticket-info blockquote { background-color: #DDD; padding: 10px; }
+.ticket-left 			{ width: 70%; float: left;  }
+.ticket-right 			{ width: 15%; float: left; margin-left: 20px; }
+
+.wps-no-hand:hover		{ cursor: default!important; }
+
+.easyPieChart 			{ position: relative; text-align: center; }
+.easyPieChart canvas 	{ position: absolute; top: 0; left: 0; }
+
+.seperator 				{ border-top: 1px solid #EEE; padding: 5px 0; }
+
+/* This is the best I can think of at the moment but isn't great */
+#menu-posts-wps_support ul li:last-child { display:none; }
