@@ -37,7 +37,13 @@ function wps_stats_widget() { ?>
 	<div class="table table_content" style="float:left; width:50%;">
 		<h4>Progress</h4>
 		<br />
-		<div class="chart" data-percent="<?php echo $percentage; ?>"><?php echo round($percentage); ?>%</div>
+		<?php if ($resolved > 1) { ?>
+			<div class="chart" data-percent="<?php echo $percentage; ?>"><?php echo round($percentage); ?>%</div>
+		<?php } else {
+			
+			echo 'Add some more tickets and resolve them to start seeing some data'; 
+		
+		} ?>
 	</div>
 	
 	<div class="table table_discussion" style="float:left;">
