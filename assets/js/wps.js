@@ -14,7 +14,10 @@ jQuery(document).ready(function($) {
       	};
 
      	$.post(ajaxurl, data, function (response) {
-			$('#ticket_div').before(response);
+	     	var newItem = $( response );
+			newItem.hide();
+			$( '#ticket_div' ).before( newItem );
+			newItem.fadeIn()
 			tinymce.get('ticket-info-content').setContent('');			
 		});	
 
