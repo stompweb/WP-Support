@@ -31,7 +31,7 @@ function wps_add_comment() {
 		<h3 class="hndle wps-no-hand"><span><?php echo $comment->comment_author; ?></span> - <?php echo $comment->comment_date; ?></h3>
 							
 		<div class="inside">
-			<p><?php echo $comment->comment_content; ?></p>
+			<?php echo apply_filters('the_content', $comment->comment_content); ?>
 		</div>
 	</div>	
 	
