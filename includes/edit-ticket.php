@@ -44,7 +44,7 @@ function wps_create_edit_ticket_page()
 										<h3 class="hndle wps-no-hand"><span> <?php echo ' ' . $comment->comment_author; ?></span> - <?php echo $comment->comment_date; ?></h3>
 							
 										<div class="inside">
-											<p><?php echo $comment->comment_content; ?></p>
+											<?php echo apply_filters('the_content', $comment->comment_content); ?>
 										</div>
 									</div>
 								<?php endforeach;
@@ -64,7 +64,6 @@ function wps_create_edit_ticket_page()
 						<?php 
 		
 							$args = array(
-								'media_buttons' => false,
   			  					'textarea_rows' => 8,
     							'teeny' => true,
     							'quicktags' => false
