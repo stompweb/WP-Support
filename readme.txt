@@ -1,5 +1,6 @@
 === WP Support ===
 Contributors: stompweb
+Donate link: http://www.stomptheweb.co.uk
 Tags: support
 Requires at least: 3.5
 Tested up to: 3.5
@@ -45,7 +46,15 @@ Visit the Issues page of the plugin homepage at: https://github.com/stompweb/WP-
 
 Sure. Head over to https://github.com/stompweb/WP-Support and add your requests in the 'Issues' section
 
+== Screenshots ==
+
+1. This is the ticket overview screen
+2. This is the individual ticket screen where users can post their comments and update the status
+
 == Changelog ==
 
 = 0.1 =
 * Initial commit
+
+== Upgrade Notice ==
+There are currently no upgrade notices.
